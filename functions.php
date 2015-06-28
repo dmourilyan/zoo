@@ -371,16 +371,17 @@ if(! class_exists( 'single_page_walker' )):
                     $class_names .= ' active-children';
                      
                 $class_names .= ' page-section'; 
+                $output .=  '<li class="'. $class_names .'">';
                 $link = get_permalink($ancestor[0]);
                                          
                 $varpost = get_post($item->object_id);
                 $trailing_slash = preg_match('/\/$/', $link ) ? '' : '/' ;  
-                //$link_id = $trailing_slash . '#'.preg_replace('/\s+/', '', $varpost->post_title );                  
-                $link_id = $trailing_slash . '#'.sanitize_title($varpost->post_title);    
+                //$link_id = $trailing_slash . '#'.preg_replace('/\s+/', '', $varpost->post_title );    
+                $link_id = $trailing_slash . '#'.sanitize_title($varpost->post_title);                  
                 $attributes .= ' href="'. $link . $link_id . ' "';      
             
             }        
-            if( $do_page_section && !$item->menu_item_parent)
+            else if( $do_page_section && !$item->menu_item_parent)
             {
                 $class_names = ' class="'. esc_attr( $class_names ) . '"';
                 $output .=  '<li'. $class_names .'>';
@@ -410,9 +411,10 @@ if(! class_exists( 'single_page_walker' )):
     }
 endif;
 
+
 if(! class_exists( 'Custom_Walker_Page' )): 
     class Custom_Walker_Page extends Walker_Page {
-        function start_el( &$output, $page, $depth = 0, $args = array(), $current_page = 0 ) {
+    function start_el( &$output, $page, $depth = 0, $args = array(), $current_page = 0 ) {
             if ( $depth )
                 $indent = str_repeat("\t", $depth);
             else
@@ -464,14 +466,14 @@ if(! class_exists( 'Custom_Walker_Page' )):
                                 
                 $permalink = get_permalink( $page_id );         
                 $trailing_slash = preg_match('/\/$/', $permalink ) ? '' : '/' ;            
-               // $link_id = $trailing_slash . '#'.preg_replace('/\s+/', '', $page->post_title );
-                $link_id = $trailing_slash . '#'.sanitize_title($page->post_title);                                                               
+                //$link_id = $trailing_slash . '#'.preg_replace('/\s+/', '', $page->post_title );  
+                $link_id = $trailing_slash . '#'.sanitize_title($page->post_title);                                                             
             }
                         
             $css_class = implode( ' ', apply_filters( 'page_css_class', $css_class, $page, $depth, $args, $current_page ) );
 
             if ( '' === $page->post_title )
-                $page->post_title = sprintf( __( '#%d (no title)' ), $page->ID );
+                $page->post_title = sprintf( __( '#%d (no title)', 'zootheme' ), $page->ID );
 
             /** This filter is documented in wp-includes/post-template.php */
             $output .= $indent . '<li class="' . $css_class . '"><a href="' . $permalink . $link_id . '">' . $link_before . apply_filters( 'the_title', $page->post_title, $page->ID ) . $link_after . '</a>';
@@ -485,7 +487,7 @@ if(! class_exists( 'Custom_Walker_Page' )):
                 $output .= " " . mysql2date($date_format, $time);
             }
         }    
-    }
+    }    
 endif;
 
 add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
