@@ -1,214 +1,225 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: zoo\n"
-"POT-Creation-Date: 2014-02-28 09:06+1000\n"
-"PO-Revision-Date: 2014-02-28 09:10+1000\n"
+"POT-Creation-Date: 2016-03-17 22:22-0600\n"
+"PO-Revision-Date: 2016-03-17 22:29-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: ..\n"
 
+# 404
 #: ../404.php:7
 msgid "404"
-msgstr ""
+msgstr "404"
 
 #: ../404.php:8
 msgid "Oops! That page can't be found."
-msgstr ""
+msgstr "Lo sentimos, la página no pudo ser encontrada."
 
 #: ../404.php:29
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
+"Parece que nada se encontró en esta ubicación. ¿Gustarías intentar una "
+"búsqueda?"
 
 #: ../archive.php:20
 #, php-format
 msgid "Author: %s"
-msgstr ""
+msgstr "Autor: %s"
 
 #: ../archive.php:25
 #, php-format
 msgid "Day: %s"
-msgstr ""
+msgstr "Día: %s"
 
 #: ../archive.php:28
 #, php-format
 msgid "Month: %s"
-msgstr ""
+msgstr "Mes: %s"
 
 #: ../archive.php:31
 #, php-format
 msgid "Year: %s"
-msgstr ""
+msgstr "Año: %s"
 
 #: ../archive.php:34
 msgid "Asides"
-msgstr ""
+msgstr "Apartes"
 
 #: ../archive.php:37
 msgid "Images"
-msgstr ""
+msgstr "Imágenes"
 
 #: ../archive.php:40
 msgid "Videos"
-msgstr ""
+msgstr "Videos"
 
 #: ../archive.php:43
 msgid "Quotes"
-msgstr ""
+msgstr "Citas"
 
 #: ../archive.php:46
 msgid "Links"
-msgstr ""
+msgstr "Enlaces"
 
 #: ../archive.php:49 ../sidebar.php:11
 msgid "Archives"
-msgstr ""
+msgstr "Archivos"
 
 #: ../comments.php:13 ../comments.php:31
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navegación de comentarios"
 
 #: ../comments.php:14 ../comments.php:32
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Comentarios antiguos"
 
 #: ../comments.php:15 ../comments.php:33
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Comentarios Recientes &rarr;"
 
 #: ../comments.php:44
 msgid "Comments are closed."
-msgstr ""
+msgstr "Los comentarios se encuentran desactivados."
 
 #: ../comments.php:56
 msgid "comment_submit"
-msgstr ""
+msgstr "enviar_contenido"
 
 #: ../comments.php:57 ../inc/template-tags.php:115
 msgid "Leave a comment"
-msgstr ""
+msgstr "Dejar un comentario"
 
 #: ../comments.php:58
 #, php-format
 msgid "Leave a comment %s"
-msgstr ""
+msgstr "Dejar un comentario %s"
 
 #: ../comments.php:59
 msgid "Cancel comment"
-msgstr ""
+msgstr "Cancelar comentario"
 
 #: ../comments.php:60
 msgid "Post comment"
-msgstr ""
+msgstr "Enviar comentario"
 
 #: ../comments.php:61
 msgid "Comment"
-msgstr ""
+msgstr "Comentario"
 
 #: ../comments.php:63
 msgid "Name(Required)"
-msgstr ""
+msgstr "Nombre(Requerido)"
 
 #: ../comments.php:64
 msgid "Email(Required)"
-msgstr ""
+msgstr "Correo Electrónico(Requerido)"
 
 #: ../content.php:42
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Seguir leyendo <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../content.php:45
 msgid "Pages:"
-msgstr ""
+msgstr "Páginas"
 
 #: ../content.php:63 ../inc/template-tags.php:99
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: ../content.php:68
 #, php-format
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Etiquetado %1$s"
 
 #: ../functions.php:27
 msgid "Primary Menu"
-msgstr ""
+msgstr "Menu Principal"
 
 #: ../functions.php:39
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra Lateral"
 
 #: ../functions.php:414
 #, php-format
 msgid "#%d (no title)"
-msgstr ""
+msgstr "#%d (sin título)"
 
 #: ../functions.php:479 ../inc/class-tgm-plugin-activation.php:164
 msgid "Install Required Plugins"
-msgstr ""
+msgstr "Instalar Complementos Requeridos"
 
 #: ../functions.php:480 ../inc/class-tgm-plugin-activation.php:165
 msgid "Install Plugins"
-msgstr ""
+msgstr "Instalar Complementos"
 
 #: ../functions.php:481 ../inc/class-tgm-plugin-activation.php:166
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr ""
+msgstr "Instalando Complemento: %s"
 
 #: ../functions.php:482
 msgid "Something went wrong with the plugin API."
-msgstr ""
+msgstr "Algo salió mal con la API del complemento."
 
 #: ../functions.php:493 ../inc/class-tgm-plugin-activation.php:178
 #: ../inc/class-tgm-plugin-activation.php:490
 msgid "Return to Required Plugins Installer"
-msgstr ""
+msgstr "Regresar al instalador de complementos requeridos."
 
 #: ../functions.php:494 ../inc/class-tgm-plugin-activation.php:179
 #: ../inc/class-tgm-plugin-activation.php:1846
 msgid "Plugin activated successfully."
-msgstr ""
+msgstr "Complemento activado con éxito."
 
 #: ../functions.php:495
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
-msgstr ""
+msgstr "Todos los complementos se instalaron y activaron con éxito. %s"
 
 #: ../index.php:8
 msgid "Latest Posts"
-msgstr ""
+msgstr "Últimas Publicaciones"
 
 #: ../no-results.php:4
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nada Encontrado"
 
 #: ../no-results.php:20
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"¿Listo para realizar su primera publicación? <a href=\"%1$s\">Inicie Aquí</"
+"a>."
 
 #: ../no-results.php:22
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Lo sentimos, pero nada se encontró con sus términos de búsqueda. Por favor "
+"intente con otras palabras clave."
 
 #: ../no-results.php:24
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Parece que no podemos encontrar lo que usted busca. Quizá utilizar la "
+"herramienta de búsqueda pueda ayudarle."
 
 #: ../options.php:32
 msgid "A Section added by hook"
-msgstr ""
+msgstr "Una sección agregada por un gancho."
 
 #: ../options.php:33
 msgid ""
@@ -216,72 +227,79 @@ msgid ""
 "sections array. Can be used by child themes to add/remove sections from the "
 "options.</p>"
 msgstr ""
+"<p class=\"description\">Esta es una sección la cual fue creada agregando un "
+"filtro a la colección de secciones. Puede ser utilizado por temas hijo para "
+"agregar/eliminar secciones de las opciones.</p>"
 
 #: ../options.php:141 ../options.php:145
 msgid "Theme Options"
-msgstr ""
+msgstr "Opciones de Tema"
 
 #: ../options.php:215
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../options.php:222
 msgid "Logo"
-msgstr ""
+msgstr "Logotipo"
 
 #: ../options.php:223
 msgid "Upload your logo"
-msgstr ""
+msgstr "Suba su logotipo"
 
 #: ../options.php:235
 msgid "Favicon"
-msgstr ""
+msgstr "Favicono"
 
 #: ../options.php:236
 msgid "Upload your favicon ( .ico format 16px 16px )"
-msgstr ""
+msgstr "Suba su favicono (formato .ico 16px 16px)"
 
 #: ../options.php:242
 msgid "Blog Layout"
-msgstr ""
+msgstr "Composición del Blog"
 
 #: ../options.php:243
 msgid "Select the layout for blog pages"
-msgstr ""
+msgstr "Elija la composición para las páginas del blog."
 
 #: ../options.php:254
 msgid "Footer Logo"
-msgstr ""
+msgstr "Logotipo de Pie de Página"
 
 #: ../options.php:255
 msgid "Upload logo to be displayed in the footer"
-msgstr ""
+msgstr "Subir logotipo para mostrarlo en el pie de página"
 
 #: ../options.php:261
 msgid "Footer Copyright Text"
-msgstr ""
+msgstr "Texto de Derechos de Autor de Pie de Página"
 
 #: ../options.php:262
 msgid "Enter the copyright text to be displayed in the footer"
 msgstr ""
+"Introduzca el texto de derechos de autor para ser mostrado en el pie de "
+"página."
 
 #: ../options.php:269
 msgid "Social Network Icons In Footer"
-msgstr ""
+msgstr "Iconos de Redes Sociales en el Pie de Página"
 
 #: ../options.php:270
 msgid ""
 "<p class=\"description\">Turn the footer social network icons display on or "
 "off</p>"
 msgstr ""
+"<p class=\"description\">Activar o desactivar los íconos de redes sociales "
+"en pie de página</p>"
 
 #: ../options.php:282
 msgid "Typography"
-msgstr ""
+msgstr "Tipografía"
 
 #: ../options.php:287
 msgid "Enable custom google fonts"
-msgstr ""
+msgstr "Activar fuentes de google personalizadas"
 
 #: ../options.php:289
 msgid ""
@@ -289,46 +307,50 @@ msgid ""
 "family \"lato\" will be used - this font is included in the theme files.<br /"
 "> Be sure to select YES if you wish to use a different font.</p>"
 msgstr ""
+"<p class=\"description\">Si las fuentes de google están desactivadas la "
+"fuente \"lato\" se utilizará - esta fuente está incluida en los archivos del "
+"tema.<br/> Asegúrese de elegir si si desea utilizar una fuente diferente.</p>"
 
 #: ../options.php:295
 msgid "Body Font"
-msgstr ""
+msgstr "Cuerpo de la fuente"
 
 #: ../options.php:296
 msgid "Select the main body font"
-msgstr ""
+msgstr "Elija el cuerpo principal de la fuente"
 
 #: ../options.php:302
 msgid "Heading 1 Font"
-msgstr ""
+msgstr "Fuente de Encabezado 1"
 
 #: ../options.php:303
 msgid "Select h1 font"
-msgstr ""
+msgstr "Elija la fuente de h1"
 
 #: ../options.php:309
 msgid "Heading 2 to heading 6 Font"
-msgstr ""
+msgstr "Fuente de Encabezado 2 a Encabezado 6"
 
 #: ../options.php:310
 msgid "Select h2, h3, h4, h5, h6 font"
-msgstr ""
+msgstr "Elija la fuente de h2, h3, h4, h5 y h6"
 
 #: ../options.php:316
 msgid "Page description font"
-msgstr ""
+msgstr "Descripción de fuente de página"
 
 #: ../options.php:317
 msgid "Select page description font, default is serif"
 msgstr ""
+"Elija la fuente de la descripción de la página, serif es la predeterminada"
 
 #: ../options.php:323
 msgid "Accent font"
-msgstr ""
+msgstr "Fuente de énfasis"
 
 #: ../options.php:324
 msgid "Select accent font"
-msgstr ""
+msgstr "Elegir fuente de énfasis"
 
 #: ../options.php:325
 msgid ""
@@ -338,108 +360,130 @@ msgid ""
 "\"accent\"&gtThis is accent font&lt/span&gt This is heading 1 font&lt/h1&gt "
 "</strong></code></p>"
 msgstr ""
+"<p class=\"description\">Esta fuente será asignada a la clase \"accent\"</p> "
+"<p class=\"description\"> \n"
+"                    <code> Ejemplo de uso: <strong> &lth1&gt&ltspan class="
+"\"accent\"&gtEsta es la fuente de énfasis&lt/span&gt Esta es la fuente del "
+"encabezado 1&lt/h1&gt </strong></code></p>"
 
 #: ../options.php:331
 msgid "Accent font letter spacing (px)"
-msgstr ""
+msgstr "Espaciado entre letras de fuente de énfasis (px)"
 
 #: ../options.php:332
 msgid "Enter accent font letter spacing - Default is 4"
 msgstr ""
+"Introduzca el espacio de letras de la fuente de énfasis - El predeterminado "
+"es 4"
 
 #: ../options.php:338
 msgid "Body Font Size (px)"
-msgstr ""
+msgstr "Tamaño de la lerta de cuerpo (px)"
 
 #: ../options.php:339
 msgid "Enter body font size - Default is 14"
-msgstr ""
+msgstr "Introduzca el tamaño de la letra de cuerpo - El predeterminado es 14"
 
 #: ../options.php:345
 msgid "Main Navigation Font Size (px)"
-msgstr ""
+msgstr "Tamaño inicial de la letra de Navegación Principal (px)"
 
 #: ../options.php:346
 msgid "Enter main navigation font size - Default is 11"
 msgstr ""
+"Inotrduzca el tamaño de la fuente de la navegación principal - El "
+"predeterminado es 11"
 
 #: ../options.php:352
 msgid "Secondary Navigation Font Size (px)"
-msgstr ""
+msgstr "Tamaño inicial de la letra de Navegación Secundaria (px)"
 
 #: ../options.php:353
 msgid "Enter secondary navigation font size - Default is 11"
 msgstr ""
+"Inotrduzca el tamaño de la letra de la navegación secundaria - El "
+"predeterminado es 11"
 
 #: ../options.php:354 ../options.php:571 ../options.php:579
 msgid ""
 "<p class=\"description\">Secondary navigation includes page tabs and "
 "portfolio filters</p>"
 msgstr ""
+"<p class=\"description\">La navegación secundaria incluye pestañas de "
+"páginas y filtros de portafolio</p>"
 
 #: ../options.php:360
 msgid "Breadcrumbs and Post Navigation Font Size (px)"
-msgstr ""
+msgstr "Tamaño de letra de Post Navegación y Breadcrumbs  (px)"
 
 #: ../options.php:361
 msgid "Enter breadcrumbs and post navigation font size - Default is 11"
 msgstr ""
+"Introduzca el tamaño de letra de post navegación y breadcrumbs - El "
+"predeterminado es 11"
 
 #: ../options.php:367
 msgid "Heading H1 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H1 (px)"
 
 #: ../options.php:368
 msgid "Enter heading one font size - Default is 55"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado uno  - El predeterminado es 55"
 
 #: ../options.php:374
 msgid "Heading H2 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H2 (px)"
 
 #: ../options.php:375
 msgid "Enter heading two font size - Default is 24"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado dos  - El predeterminado es 24"
 
 #: ../options.php:381
 msgid "Heading H3 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H3 (px)"
 
 #: ../options.php:382
 msgid "Enter heading three font size - Default is 20"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado tres  - El predeterminado es 20"
 
 #: ../options.php:388
 msgid "Heading H4 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H4 (px)"
 
 #: ../options.php:389
 msgid "Enter heading four font size - Default is 18"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado cuatro  - El predeterminado es "
+"18"
 
 #: ../options.php:395
 msgid "Heading H5 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H5 (px)"
 
 #: ../options.php:396
 msgid "Enter heading five font size - Default is 16"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado cinco  - El predeterminado es 16"
 
 #: ../options.php:402
 msgid "Heading H6 Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Letra del Encabezado H6 (px)"
 
 #: ../options.php:403
 msgid "Enter heading six font size - Default is 14"
 msgstr ""
+"Introduzca el tamaño de letra del encabezado seis  - El predeterminado es 14"
 
 #: ../options.php:409
 msgid "Mega Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Mega Letra (px)"
 
 #: ../options.php:410
 msgid "Mega font size - Default is 72"
-msgstr ""
+msgstr "Tamaño de Mega letra - El predeterminado es 72"
 
 #: ../options.php:411
 msgid ""
@@ -448,14 +492,18 @@ msgid ""
 "                    <code> example use: <strong> &lth1 class=\"mega\"&gt "
 "This is a big font &lt/h1&gt </strong></code></p>"
 msgstr ""
+"<p class=\"description\">El tamaño será asignado a la clase \"mega\"</p> <p "
+"class=\"description\"> \n"
+"                    <code> Ejemplo de uso:<strong> &lth1 class=\"mega\"&gt "
+"Esta es una letra grande &lt/h1&gt </strong></code></p>"
 
 #: ../options.php:418
 msgid "Giga Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Giga Fuente (px)"
 
 #: ../options.php:419
 msgid "Giga font size - Default is 90"
-msgstr ""
+msgstr "Tamaño de Giga fuente - El predeterminado es 90"
 
 #: ../options.php:420
 msgid ""
@@ -464,14 +512,18 @@ msgid ""
 "                    <code> example use: <strong> &lth1 class=\"giga\"&gt "
 "This is a realy big font &lt/h1&gt </strong></code></p>"
 msgstr ""
+"<p class=\"description\">El tamaño será asignado a la clase \"giga\"</p> <p "
+"class=\"description\"> \n"
+"                    <code> Ejemplo de uso:<strong> &lth1 class=\"giga\"&gt "
+"Esta es una letra realmente grande &lt/h1&gt </strong></code></p>"
 
 #: ../options.php:427
 msgid "Tera Font Size (px)"
-msgstr ""
+msgstr "Tamaño de Tera Fuente (px)"
 
 #: ../options.php:428
 msgid "Tera font size - Default is 117"
-msgstr ""
+msgstr "Tamaño de Tera fuente - El predeterminado es 117"
 
 #: ../options.php:429
 msgid ""
@@ -480,70 +532,78 @@ msgid ""
 "                    <code> example use: <strong> &lth1 class=\"tera\"&gt "
 "This is a huge font &lt/h1&gt </strong></code></p>"
 msgstr ""
+"p class=\"description\">El tamaño será asignado a la clase \"tera\"</p> <p "
+"class=\"description\"> \n"
+"                    <code> Ejemplo de uso:<strong> &lth1 class=\"tera\"&gt "
+"Esta es una letra gigantesca &lt/h1&gt </strong></code></p>"
 
 #: ../options.php:441
 msgid "Styling Options"
-msgstr ""
+msgstr "Opciones de estilizado"
 
 #: ../options.php:446
 msgid "Google Map Hue"
-msgstr ""
+msgstr "Matiz de Mapa de Google"
 
 #: ../options.php:447
 msgid "<p class=\"description\">Indicates the basic map color.</p>"
-msgstr ""
+msgstr "<p class=\"description\">Indica el color básico del mapa.</p>"
 
 #: ../options.php:448
 msgid "Select Google map hue"
-msgstr ""
+msgstr "Elegir el matiz de mapa de Google"
 
 #: ../options.php:454
 msgid "Google Map Saturation"
-msgstr ""
+msgstr "Saturación de Mapa de Google"
 
 #: ../options.php:455
 msgid ""
 "<p class=\"description\"> (Value between -100 and 100) indicates the "
 "intensity of the basic color.</p>"
 msgstr ""
+"<p class=\"description\"> (Valor entre -100 y 100) indica la intensidad del "
+"color básico. </p>"
 
 #: ../options.php:456 ../options.php:464
 msgid "Enter Google map saturation"
-msgstr ""
+msgstr "Introducir la saturación del Mapa de Google"
 
 #: ../options.php:462
 msgid "Google Map Brightness"
-msgstr ""
+msgstr "Brillo de Mapa de Google"
 
 #: ../options.php:463
 msgid ""
 "<p class=\"description\"> (Value between -100 and 100) indicates the "
 "percentage change in brightness of the map.</p>"
 msgstr ""
+"<p class=\"description\"> (Un valor entre -100 y 100) indica el cambio en "
+"porcentaje en la claridad del mapa.</p>"
 
 #: ../options.php:470
 msgid "Google Map Marker"
-msgstr ""
+msgstr "Marcador de mapa de Google"
 
 #: ../options.php:471
 msgid "Upload a custom Google map marker"
-msgstr ""
+msgstr "Subir un marcador de mapa de Google personalizado"
 
 #: ../options.php:477
 msgid "Accent Color"
-msgstr ""
+msgstr "Color de énfasis"
 
 #: ../options.php:478
 msgid "Select the main accent color"
-msgstr ""
+msgstr "Elija el color de énfasis principal"
 
 #: ../options.php:484
 msgid "Body Background Color"
-msgstr ""
+msgstr "Color de fondo del cuerpo"
 
 #: ../options.php:485
 msgid "Select the body background color"
-msgstr ""
+msgstr "Elija el color de fondo del cuerpo"
 
 #: ../options.php:486
 msgid ""
@@ -551,368 +611,390 @@ msgid ""
 "images or colors for individual sections/pages use the meta box options in "
 "the page editor screen.</p>"
 msgstr ""
+"<p class=\"description\">Color de fondo del sitio. Para ajustar imágenes de "
+"fondo o colores para secciones individuales o páginas, use las opciones de "
+"la meta caja en la pantalla de editor de página.</p>"
 
 #: ../options.php:492
 msgid "Navigation Bar Color"
-msgstr ""
+msgstr "Color de Barra de Navegación"
 
 #: ../options.php:493
 msgid "Select the navigation bar color"
-msgstr ""
+msgstr "Seleccione el color de la barra de navegación"
 
 #: ../options.php:499
 msgid "Navigation Top Border Color"
-msgstr ""
+msgstr "Color de Borde Superior de Navegación"
 
 #: ../options.php:500
 msgid "Select the navigation top border color"
-msgstr ""
+msgstr "Elija el color de borde superior de navegación"
 
 #: ../options.php:506
 msgid "Portfolio Item Rollover Color"
-msgstr ""
+msgstr "Color de Despliegue de Artículo de Portafolio"
 
 #: ../options.php:507
 msgid "Select the background color shown while hovering portfolio items"
 msgstr ""
+"Elija el color de fondo mostrado mientras se posiciona sobre los artículos "
+"del portafolio"
 
 #: ../options.php:513
 msgid "Portfolio Single Background Color"
-msgstr ""
+msgstr "Color de fondo de Portafolio único"
 
 #: ../options.php:514
 msgid "Select the background color for the portfolio popup"
-msgstr ""
+msgstr "Seleccione el color de fondo para la ventana emergente del portafolio"
 
 #: ../options.php:520
 msgid "Portfolio Single Navigation Color"
-msgstr ""
+msgstr "Color de navegación de Portafolio único"
 
 #: ../options.php:521
 msgid "Select the color for the portfolio popup navigation bar"
-msgstr ""
+msgstr "Elija el color de la barra de navegación de portafolio"
 
 #: ../options.php:527
 msgid "Footer Color"
-msgstr ""
+msgstr "Color de pie de página"
 
 #: ../options.php:528
 msgid "Select the background color of the footer"
-msgstr ""
+msgstr "Elija el color de fondo de pie de página"
 
 #: ../options.php:534
 msgid "Copyright Text Color"
-msgstr ""
+msgstr "Color de Texto de Derechos de Autor"
 
 #: ../options.php:535
 msgid "Select the copyright text font color"
-msgstr ""
+msgstr "Elija el color de texto de derechos de autor"
 
 #: ../options.php:541
 msgid "Heading Font Color"
-msgstr ""
+msgstr "Color de letra del encabezado"
 
 #: ../options.php:542
 msgid "Select the font color for headings"
-msgstr ""
+msgstr "Elija el color de letra para encabezados"
 
 #: ../options.php:548
 msgid "Body Font Color"
-msgstr ""
+msgstr "Color de letra del cuerpo"
 
 #: ../options.php:549
 msgid "Select the main font color"
-msgstr ""
+msgstr "Elija el color de letra principal"
 
 #: ../options.php:555
 msgid "Main Navigation Standard Font Color"
-msgstr ""
+msgstr "Color de Letra de Navegación Principal Estándar"
 
 #: ../options.php:556
 msgid "Select the main navigation standard font color"
-msgstr ""
+msgstr "Elija el color de letra estándar de navegación principal"
 
 #: ../options.php:562
 msgid "Main Navigation Active Font Color"
-msgstr ""
+msgstr "Color de Letra de Navegación Principal Activa"
 
 #: ../options.php:563
 msgid "Select the main navigation active font color"
-msgstr ""
+msgstr "Elija el color de letra activo de la navegación principal."
 
 #: ../options.php:569
 msgid "Secondary Navigation Standard Font Color"
-msgstr ""
+msgstr "Color de Letra de Navegación Secundaria Estándar"
 
 #: ../options.php:570
 msgid "Select the secondary navigation standard font color"
-msgstr ""
+msgstr "Elija el Color de Letra de Navegación Principal Estándar"
 
 #: ../options.php:577
 msgid "Secondary Navigation Active Font Color"
-msgstr ""
+msgstr "Color de Navegación Activa de Navegación Secundaria"
 
 #: ../options.php:578
 msgid "Select the secondary navigation active font color"
-msgstr ""
+msgstr "Elija el color de fuente activo de la navegación secundaria"
 
 #: ../options.php:585
 msgid "Link Color"
-msgstr ""
+msgstr "Color de enlace"
 
 #: ../options.php:586
 msgid "Select font color for links (Accent color is used on rollover) "
 msgstr ""
+"Elija el color de letra para enlaces (El color de énfasis se utiliza en el "
+"despliegue)"
 
 #: ../options.php:592
 msgid "Custom CSS"
-msgstr ""
+msgstr "CSS Personalizado"
 
 #: ../options.php:602
 msgid "Slider Options"
-msgstr ""
+msgstr "Opciones de Deslizador"
 
 #: ../options.php:607
 msgid "SuperSlides Play"
-msgstr ""
+msgstr "Reproduccion de SuperSlides"
 
 #: ../options.php:608
 msgid "<p class=\"description\">Home page slider auto play</p>"
 msgstr ""
+"<p class=\"description\">Reproducción automática de deslizador en página "
+"principal</p>"
 
 #: ../options.php:609
 msgid ""
 "<p class=\"description\">Auto play speed in milliseconds. Leave empty to "
 "disable auto play.</p>"
 msgstr ""
+"<p class=\"description\">Velocidad de reproducción automática en "
+"milisegundos.Dejar en blanco para deshabilitar la reproducción automática.</"
+"p>"
 
 #: ../options.php:616
 msgid "SuperSlides Pagination"
-msgstr ""
+msgstr "Paginación de SuperSlides"
 
 #: ../options.php:617
 msgid ""
 "<p class=\"description\">Turn home page slider pagination display on or off</"
 "p>"
 msgstr ""
+"<p class=\"description\">Activar o desactivar pantalla de paginación del "
+"deslizador de página</p>"
 
 #: ../options.php:623
 msgid "SuperSlides Animation Type"
-msgstr ""
+msgstr "Tipo de Animación de SuperSlides"
 
 #: ../options.php:624
 msgid "Select homepage slider animation style"
-msgstr ""
+msgstr "Elija el estilo de animación de la página principal de deslizador"
 
 #: ../options.php:632
 msgid "Flex Slider Auto Play"
-msgstr ""
+msgstr "Reproducción Automática de Deslizador Flex"
 
 #: ../options.php:633
 msgid "<p class=\"description\">Turn flex slider auto play on or off</p>"
 msgstr ""
+"<p class=\"description\">Activar o desactivar reproducción automática de "
+"deslizador flex</p>"
 
 #: ../options.php:639
 msgid "Flex Slider Auto Play Speed"
-msgstr ""
+msgstr "Velocidad de Reproducción Automática de Deslizador Flex"
 
 #: ../options.php:640
 msgid "<p class=\"description\">Flex slider auto play speed</p>"
 msgstr ""
+"<p class=\"description\">Velocidad de reproducción automática de deslizador "
+"flex</p>"
 
 #: ../options.php:641
 msgid ""
 "<p class=\"description\">The speed of the slideshow cycling, in milliseconds "
 "</p>"
 msgstr ""
+"<p class=\"description\">La velocidad del ciclo de diapositivas, en "
+"milisegundos </p>"
 
 #: ../options.php:647
 msgid "Flex Slider Animation Type"
-msgstr ""
+msgstr "Tipo de Animación del Deslizador Flex"
 
 #: ../options.php:648
 msgid "Select fade or slide animation types"
-msgstr ""
+msgstr "Elija los tipos de animación desvanecer o deslizar "
 
 #: ../options.php:655
 msgid "Flex Slider Slide Direction"
-msgstr ""
+msgstr "Dirección de deslizar de Deslizador Flex"
 
 #: ../options.php:656
 msgid "Select direction for slide animation"
-msgstr ""
+msgstr "Elija la dirección para la animación de deslizar"
 
 #: ../options.php:664
 msgid "Flex Slider Pagination"
-msgstr ""
+msgstr "Paginación de Deslizador Flex"
 
 #: ../options.php:665
 msgid "<p class=\"description\">Turn pagination display on or off</p>"
-msgstr ""
+msgstr "<p class=\"description\">Active o desactive la paginación</p>"
 
 #: ../options.php:672
 msgid "Testimonials Slider Auto Play"
-msgstr ""
+msgstr "Reproducción Automática del Deslizador de Testimonios"
 
 #: ../options.php:673
 msgid ""
 "<p class=\"description\">Turn the testimonials slider auto play on or off</p>"
 msgstr ""
+"<p class=\"description\">Activo o desactive la reproducción automática del "
+"deslizador de testimonios</p>"
 
 #: ../options.php:685
 msgid "Social Networks"
-msgstr ""
+msgstr "Redes Sociales"
 
 #: ../options.php:690
 msgid "Twitter Link"
-msgstr ""
+msgstr "Enlace de Twitter"
 
 #: ../options.php:691 ../options.php:698 ../options.php:705 ../options.php:712
 #: ../options.php:719 ../options.php:726 ../options.php:733 ../options.php:740
 #: ../options.php:747 ../options.php:754 ../options.php:761 ../options.php:768
 #: ../options.php:775 ../options.php:782
 msgid "Leave field empty to remove icon"
-msgstr ""
+msgstr "Deje el campo en blanco para eliminar ícono."
 
 #: ../options.php:697
 msgid "Facebook Link"
-msgstr ""
+msgstr "Enlace de Facebook"
 
 #: ../options.php:704
 msgid "Dribbble Link"
-msgstr ""
+msgstr "Enlace de Dribbble"
 
 #: ../options.php:711
 msgid "Youtube Link"
-msgstr ""
+msgstr "Enlace de Youtube"
 
 #: ../options.php:718
 msgid "Instagram Link"
-msgstr ""
+msgstr "Enlace de Instagram"
 
 #: ../options.php:725
 msgid "Vimeo Link"
-msgstr ""
+msgstr "Enlace de Vimeo"
 
 #: ../options.php:732
 msgid "Tumblr Link"
-msgstr ""
+msgstr "Enlace de Tumblr"
 
 #: ../options.php:739
 msgid "Wordpress Link"
-msgstr ""
+msgstr "Enlace de Wordpress"
 
 #: ../options.php:746
 msgid "RSS Link"
-msgstr ""
+msgstr "Enlace de RSS"
 
 #: ../options.php:753
 msgid "Google Link"
-msgstr ""
+msgstr "Enlace de Google"
 
 #: ../options.php:760
 msgid "Flickr Link"
-msgstr ""
+msgstr "Enlace de Flickr"
 
 #: ../options.php:767
 msgid "Linkedin Link"
-msgstr ""
+msgstr "Enlace de Linkedin"
 
 #: ../options.php:774
 msgid "Skype Link"
-msgstr ""
+msgstr "Enlace de Skype"
 
 #: ../options.php:781
 msgid "Dropbox Link"
-msgstr ""
+msgstr "Enlace de Dropbox"
 
 #: ../options.php:810
 msgid "<strong>Theme URL:</strong> "
-msgstr ""
+msgstr "<strong>Enlace del Sitio:</strong> "
 
 #: ../options.php:811
 msgid "<strong>Author:</strong> "
-msgstr ""
+msgstr "<strong>Autor:</strong> "
 
 #: ../options.php:812
 msgid "<strong>Version:</strong> "
-msgstr ""
+msgstr "<strong>Versiónr:</strong> "
 
 #: ../options.php:814
 msgid "<strong>Tags:</strong> "
-msgstr ""
+msgstr "<strong>Etiquetas:</strong> "
 
 #: ../options.php:820
 msgid "Theme Information"
-msgstr ""
+msgstr "Información del Tema"
 
 #: ../options.php:828
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: ../search.php:8
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Resultados para: %s"
 
 #: ../sidebar.php:18
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: ../inc/class-tgm-plugin-activation.php:167
 msgid "Something went wrong."
-msgstr ""
+msgstr "Algo salió mal."
 
 #: ../inc/class-tgm-plugin-activation.php:180
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "Todos los plugins instalados y activados con éxito. %1$s"
 
 #: ../inc/class-tgm-plugin-activation.php:517
 #: ../inc/class-tgm-plugin-activation.php:2058
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Regresar al Tablero"
 
 #: ../inc/class-tgm-plugin-activation.php:545
 #, php-format
 msgid "The following plugin was activated successfully: %s."
-msgstr ""
+msgstr "El siguiente plugin fue activado con éxito: %s."
 
 #: ../inc/class-tgm-plugin-activation.php:704
 msgid "Dismiss this notice"
-msgstr ""
+msgstr "Descartar este aviso"
 
 #: ../inc/class-tgm-plugin-activation.php:1091
 msgid "External Link"
-msgstr ""
+msgstr "Enlace Externo"
 
 #: ../inc/class-tgm-plugin-activation.php:1096
 msgid "Private Repository"
-msgstr ""
+msgstr "Repositorio Privado"
 
 #: ../inc/class-tgm-plugin-activation.php:1099
 msgid "Pre-Packaged"
-msgstr ""
+msgstr "Pre-Empaquetado"
 
 #: ../inc/class-tgm-plugin-activation.php:1103
 msgid "WordPress Repository"
-msgstr ""
+msgstr "Repositorio de Wordpress"
 
 #: ../inc/class-tgm-plugin-activation.php:1106
 msgid "Required"
-msgstr ""
+msgstr "Requerido"
 
 #: ../inc/class-tgm-plugin-activation.php:1106
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: ../inc/class-tgm-plugin-activation.php:1109
 msgid "Not Installed"
-msgstr ""
+msgstr "No instalado"
 
 #: ../inc/class-tgm-plugin-activation.php:1111
 msgid "Installed But Not Activated"
-msgstr ""
+msgstr "Instalado pero no activado"
 
 #: ../inc/class-tgm-plugin-activation.php:1281
 #, php-format
@@ -920,365 +1002,380 @@ msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
+"No hay complementos para instalar o activar.<a href=\"%1$s\" title="
+"\"Regresar al Tablero\">Regresar al Tablero</a>"
 
 #: ../inc/class-tgm-plugin-activation.php:1297
 msgid "Plugin"
-msgstr ""
+msgstr "Complemento"
 
 #: ../inc/class-tgm-plugin-activation.php:1298
 msgid "Source"
-msgstr ""
+msgstr "Fuente"
 
 #: ../inc/class-tgm-plugin-activation.php:1299
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: ../inc/class-tgm-plugin-activation.php:1300
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: ../inc/class-tgm-plugin-activation.php:1318
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: ../inc/class-tgm-plugin-activation.php:1319
 msgid "Activate"
-msgstr ""
+msgstr "Activar"
 
 #: ../inc/class-tgm-plugin-activation.php:1829
 msgid "Install package not available."
-msgstr ""
+msgstr "Paquete de instalación no disponible."
 
 #: ../inc/class-tgm-plugin-activation.php:1830
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
+"Descargando paquete de instalación de <span class=\"code\">%s</span>&#8230;"
 
 #: ../inc/class-tgm-plugin-activation.php:1831
 msgid "Unpacking the package&#8230;"
-msgstr ""
+msgstr "Desempaquetando el paquete&#8230;"
 
 #: ../inc/class-tgm-plugin-activation.php:1832
 msgid "Installing the plugin&#8230;"
-msgstr ""
+msgstr "Instalando el complemento&#8230;"
 
 #: ../inc/class-tgm-plugin-activation.php:1833
 msgid "Plugin install failed."
-msgstr ""
+msgstr "Instalación de complemento fallida."
 
 #: ../inc/class-tgm-plugin-activation.php:1834
 msgid "Plugin installed successfully."
-msgstr ""
+msgstr "Complemento instalado con éxito."
 
 #: ../inc/class-tgm-plugin-activation.php:1845
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "Activación del complemento fallida."
 
 #: ../inc/class-tgm-plugin-activation.php:1955
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"El proceso de instalación y activación está iniciando. Este proceso puede "
+"tomar un momento en algunos hosts, por favor sea paciente."
 
 #: ../inc/class-tgm-plugin-activation.php:1956
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%1$s instalado y activado con éxito."
 
 #: ../inc/class-tgm-plugin-activation.php:1956
 #: ../inc/class-tgm-plugin-activation.php:1965
 msgid "Show Details"
-msgstr ""
+msgstr "Mostrar Detalles"
 
 #: ../inc/class-tgm-plugin-activation.php:1956
 #: ../inc/class-tgm-plugin-activation.php:1965
 msgid "Hide Details"
-msgstr ""
+msgstr "Ocultar Detalles"
 
 #: ../inc/class-tgm-plugin-activation.php:1957
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "Todas las instalaciones y activaciones han sido completadas."
 
 #: ../inc/class-tgm-plugin-activation.php:1958
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Instalando y Activanddo Complemento %1$s (%2$d/%3$d)"
 
 #: ../inc/class-tgm-plugin-activation.php:1962
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
+"El proceso de instalación está iniciando. Este proceso puede tomar un "
+"momento en algunos hosts, por favor sea paciente."
 
 #: ../inc/class-tgm-plugin-activation.php:1963
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "Un error ocurrió mientras se instalaba %1$s: <strong>%2$s</strong>."
 
 #: ../inc/class-tgm-plugin-activation.php:1964
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr ""
+msgstr "La instalación de %1$s falló."
 
 #: ../inc/class-tgm-plugin-activation.php:1965
 #, php-format
 msgid "%1$s installed successfully."
-msgstr ""
+msgstr "%1$s instalado con éxito."
 
 #: ../inc/class-tgm-plugin-activation.php:1966
 msgid "All installations have been completed."
-msgstr ""
+msgstr "Todas las instalaciones se han completado."
 
 #: ../inc/class-tgm-plugin-activation.php:1967
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Instalando Complemento %1$s (%2$d/%3$d)"
 
 #: ../inc/dimox-breadcrumbs.php:11
 msgid "Home"
-msgstr ""
+msgstr "Página Principal"
 
 #: ../inc/dimox-breadcrumbs.php:12
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: ../inc/dimox-breadcrumbs.php:13
 msgid "Archive by Category \"%s\""
-msgstr ""
+msgstr "Archivo por Categoría \"%s\""
 
 #: ../inc/dimox-breadcrumbs.php:14
 msgid "Archive for \"%s\""
-msgstr ""
+msgstr "Archivo para \"%s\""
 
 #: ../inc/dimox-breadcrumbs.php:15
 msgid "Search Results for \"%s\" Query"
-msgstr ""
+msgstr "Mostrar Resultados por Busqueda \"%s\""
 
 #: ../inc/dimox-breadcrumbs.php:16
 msgid "Posts Tagged \"%s\""
-msgstr ""
+msgstr "Publicaciones Etiquetadas Como \"%s\""
 
 #: ../inc/dimox-breadcrumbs.php:17
 msgid "Articles Posted by %s"
-msgstr ""
+msgstr "Artículos Publicados por %s"
 
 #: ../inc/dimox-breadcrumbs.php:18
 msgid "Error 404"
-msgstr ""
+msgstr "Error 404"
 
 #: ../inc/dimox-breadcrumbs.php:139
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: ../inc/init.php:650
 msgid "Please Try Again"
-msgstr ""
+msgstr "Por favor Intente de Nuevo"
 
 #: ../inc/init.php:669
 msgid "Remove Embed"
-msgstr ""
+msgstr "Eliminar incrustado"
 
 #: ../inc/init.php:675
 #, php-format
 msgid "No oEmbed Results Found for %s. View more info at"
-msgstr ""
+msgstr "No se encontraron Resultados de oEmbed para %s. Ver mas información en"
 
 #: ../inc/metabox-functions.php:25
 msgid "Page Options"
-msgstr ""
+msgstr "Opciones de Página"
 
 #: ../inc/metabox-functions.php:32
 msgid "Heading Style"
-msgstr ""
+msgstr "Estilo de Encabezado"
 
 #: ../inc/metabox-functions.php:33
 msgid "Select Page Heading Style"
-msgstr ""
+msgstr "Elegir Estado de Encabezado de Página"
 
 #: ../inc/metabox-functions.php:37
 msgid "Standard"
-msgstr ""
+msgstr "Estándar"
 
 #: ../inc/metabox-functions.php:38
 msgid "Dropcap"
-msgstr ""
+msgstr "Primera Letra Alargada"
 
 #: ../inc/metabox-functions.php:39
 msgid "No Heading"
-msgstr ""
+msgstr "Sin Encabezado"
 
 #: ../inc/metabox-functions.php:44
 msgid "Background Color"
-msgstr ""
+msgstr "Color de Fondo"
 
 #: ../inc/metabox-functions.php:45
 msgid "Select page background color"
-msgstr ""
+msgstr "Elegir color de fondo de página"
 
 #: ../inc/metabox-functions.php:51
 msgid "Background Image"
-msgstr ""
+msgstr "Color de Fondo de Imagen"
 
 #: ../inc/metabox-functions.php:52
 msgid "Upload a background image or enter an URL."
-msgstr ""
+msgstr "Subir una imagen de fondo o una URL"
 
 #: ../inc/metabox-functions.php:57
 msgid "Page Description"
-msgstr ""
+msgstr "Descripción de Página"
 
 #: ../inc/metabox-functions.php:68
 msgid "Slide Caption Scroll Animation Presets"
 msgstr ""
+"Configuraciones Preestablecidas de Animación de Desplazamiento de Etiqueta."
 
 #: ../inc/metabox-functions.php:76
 msgid "Animation Style"
-msgstr ""
+msgstr "Estilo de Animación"
 
 #: ../inc/metabox-functions.php:80
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: ../inc/metabox-functions.php:81
 msgid "Shrink"
-msgstr ""
+msgstr "Encoger"
 
 #: ../inc/metabox-functions.php:82
 msgid "Grow"
-msgstr ""
+msgstr "Agrandar"
 
 #: ../inc/metabox-functions.php:83
 msgid "Spin"
-msgstr ""
+msgstr "Girar"
 
 #: ../inc/template-tags.php:27
 msgid "Older posts"
-msgstr ""
+msgstr "Publicaciones Antiguas"
 
 #: ../inc/template-tags.php:30
 msgid "Newer posts"
-msgstr ""
+msgstr "Publicaciones Recientes"
 
 #: ../inc/template-tags.php:50
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 #: ../inc/template-tags.php:50 ../inc/template-tags.php:73
 msgid "(Edit)"
-msgstr ""
+msgstr "(Editar)"
 
 #: ../inc/template-tags.php:71
 #, php-format
 msgid "%1$s at %2$s - "
-msgstr ""
+msgstr "%1$s en %2$s - "
 
 #: ../inc/template-tags.php:79
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Su comentario está esperando ser moderado."
 
 #: ../inc/template-tags.php:103
 msgid "<span>By <a href=\""
-msgstr ""
+msgstr "<span>Por <a href=\""
 
 #: ../inc/template-tags.php:103
 msgid "Read More"
-msgstr ""
+msgstr "Leer Mas"
 
 #: ../inc/template-tags.php:115
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Comentario"
 
 #: ../inc/template-tags.php:115
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentarios"
 
 #: ../options/defaults.php:45 ../options/defaults.php:47
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #: ../options/defaults.php:57
 msgid "<span id=\"footer-thankyou\">Options panel created using <a href=\""
 msgstr ""
+"<span id=\"footer-thankyou\">Panel de opciones creado utilizando <a href=\""
 
 #: ../options/defaults.php:233 ../options/defaults.php:234
 #: ../options/defaults.php:666
 msgid "Import / Export"
-msgstr ""
+msgstr "Importar / Exportar"
 
 #: ../options/defaults.php:253 ../options/defaults.php:254
 #: ../options/defaults.php:694 ../options/defaults.php:767
 msgid "Dev Mode Info"
-msgstr ""
+msgstr "Información de Modo de Desarrollo"
 
 #: ../options/defaults.php:345
 msgid "Are you sure? You will lose all custom values."
-msgstr ""
+msgstr "¿Está seguro? Perderá todos los valores personalizados."
 
 #: ../options/defaults.php:621 ../options/defaults.php:792
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Reiniciar a Predeterminados"
 
 #: ../options/defaults.php:627
 msgid "<strong>Settings Imported!</strong>"
-msgstr ""
+msgstr "<strong>¡Ajustes Importados!</strong>"
 
 #: ../options/defaults.php:629
 msgid "<strong>Settings Saved!</strong>"
-msgstr ""
+msgstr "<strong>¡Ajustes Guardados!</strong>"
 
 #: ../options/defaults.php:634
 msgid "<strong>Settings have changed, you should save them!</strong>"
-msgstr ""
+msgstr "<strong>¡Los ajustes han cambiado, deberías guardarlos!</strong>"
 
 #: ../options/defaults.php:635
 msgid "<strong><span></span> error(s) were found!</strong>"
-msgstr ""
+msgstr "<strong><span></span> ¡Se encontraron errores!</strong>"
 
 #: ../options/defaults.php:636
 msgid "<strong><span></span> warning(s) were found!</strong>"
-msgstr ""
+msgstr "<strong><span></span> ¡Se encontraron advertencias!!</strong>"
 
 #: ../options/defaults.php:712
 msgid "Import / Export Options"
-msgstr ""
+msgstr "Importar / Exportar Opciones"
 
 #: ../options/defaults.php:713
 msgid "Import Options"
-msgstr ""
+msgstr "Importar Opciones"
 
 #: ../options/defaults.php:714
 msgid "Import from file"
-msgstr ""
+msgstr "Importar desde archivo"
 
 #: ../options/defaults.php:714
 msgid "Import from URL"
-msgstr ""
+msgstr "Importar desde URL"
 
 #: ../options/defaults.php:719
 msgid ""
 "Input your backup file below and hit Import to restore your sites options "
 "from a backup."
 msgstr ""
+"Introduzca su archivo de respaldo debajo y presione Importar para restaurar "
+"las opciones de sus sitios desde un respaldo."
 
 #: ../options/defaults.php:729
 msgid ""
 "Input the URL to another sites options set and hit Import to load the "
 "options from that site."
 msgstr ""
+"Introduzca la URL para ajustes de opciones de otros sitios y presione Import "
+"para cargar las opciones de ese sitio."
 
 #: ../options/defaults.php:736
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 #: ../options/defaults.php:736
 msgid ""
 "WARNING! This will overwrite any existing options, please proceed with "
 "caution!"
 msgstr ""
+"¡PELIGRO! ¡Esto sobrescribira cualquier opción existente, por favor proceda "
+"con precaución!"
 
 #: ../options/defaults.php:739
 msgid "Export Options"
-msgstr ""
+msgstr "Opciones de Exportación"
 
 #: ../options/defaults.php:741
 msgid ""
@@ -1286,78 +1383,101 @@ msgid ""
 "you can use it as a backup should anything go wrong, or you can use it to "
 "restore your settings on this site (or any other site)."
 msgstr ""
+"Aqui puede copiar/descargar sus opciones de configuración actuales. Guarde "
+"esto seguramente ya que podrá utilizar como respaldo si algo sale mal, o "
+"puede utilizarlo para restaurar los ajustes en este sitio (O cualquier otro "
+"sitio)."
 
 #: ../options/defaults.php:744
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: ../options/defaults.php:744
 msgid "Copy Link"
-msgstr ""
+msgstr "Copiar Enlace"
 
 #: ../options/fields/color_gradient/field_color_gradient.php:28
 #: ../options/fields/color_gradient/field_color_gradient.php:33
 msgid "From:"
-msgstr ""
+msgstr "De:"
 
 #: ../options/fields/color_gradient/field_color_gradient.php:29
 msgid "To:"
-msgstr ""
+msgstr "Para"
 
 #: ../options/fields/color_gradient/field_color_gradient.php:35
 msgid " To:"
-msgstr ""
+msgstr " Para:"
 
 #: ../options/fields/multi_text/field_multi_text.php:31
 #: ../options/fields/multi_text/field_multi_text.php:35
 #: ../options/fields/multi_text/field_multi_text.php:38
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar:"
 
 #: ../options/fields/multi_text/field_multi_text.php:40
 msgid "Add More"
-msgstr ""
+msgstr "Agregar Mas:"
 
 #: ../options/fields/upload/field_upload.php:30
 msgid "Upload"
-msgstr ""
+msgstr "Subir"
 
 #: ../options/fields/upload/field_upload.php:31
 msgid "Remove Upload"
-msgstr ""
+msgstr "Eliminar Subida"
 
 #: ../options/validation/color/validation_color.php:14
 msgid "This field must be a valid color value."
-msgstr ""
+msgstr "El campo debe de tener un valor de color válido"
 
 #: ../options/validation/comma_numeric/validation_comma_numeric.php:14
 msgid ""
 "You must provide a comma seperated list of numerical values for this option."
 msgstr ""
+"Debe proveer una lista separada de valores numéricos separada por comas para "
+"esta opción."
 
 #: ../options/validation/date/validation_date.php:14
 msgid "This field must be a valid date."
-msgstr ""
+msgstr "Este campo debe de ser una fecha válida."
 
 #: ../options/validation/email/validation_email.php:14
 msgid "You must provide a valid email for this option."
-msgstr ""
+msgstr "Debe proporcionar una opción de correo válida para esta opción."
 
 #: ../options/validation/no_html/validation_no_html.php:14
 msgid ""
 "You must not enter any HTML in this field, all HTML tags have been removed."
 msgstr ""
+"No debe introducir cualquier código HTML en este campo, todas las etiquetas "
+"HTML han sido removidas."
 
 #: ../options/validation/no_special_chars/validation_no_special_chars.php:14
 msgid ""
 "You must not enter any special characters in this field, all special "
 "characters have been removed."
 msgstr ""
+"No debe introducir cualquier caracter especial en este campo, todas los "
+"caracteres han sido removidos."
 
 #: ../options/validation/numeric/validation_numeric.php:14
 msgid "You must provide a numerical value for this option."
-msgstr ""
+msgstr "Debe proporcionar un valor numérico en esta opción."
 
 #: ../options/validation/url/validation_url.php:14
 msgid "You must provide a valid URL for this option."
-msgstr ""
+msgstr "Debe proporcionar una URL válida para esta opción."
+
+#~ msgid "Enter the copright text to be displayed in the footer"
+#~ msgstr "Introduzca el pie de página para ser mostrado en la carpeta."
+
+#~ msgid ""
+#~ "<p class=\"description\"> (Value between -100 and 100) ndicates the "
+#~ "percentage change in brightness of the map.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\"> (Valor entre -100 y 100) indica la intensidad "
+#~ "del color básico. </p>"
+
+#~ msgid "Animtion Style"
+#~ msgstr "Animation Style"

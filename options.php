@@ -259,7 +259,7 @@ function setup_framework_options(){
                 'id' => 'zo_copyright_text',
                 'type' => 'text',
                 'title' => __('Footer Copyright Text', Zoo_TEXT_DOMAIN), 
-                'sub_desc' => __('Enter the copright text to be displayed in the footer', Zoo_TEXT_DOMAIN),
+                'sub_desc' => __('Enter the copyright text to be displayed in the footer', Zoo_TEXT_DOMAIN),
                 'std' => 'Copyright 2013, Example Corporation'
             ),
             array(
@@ -460,7 +460,7 @@ function setup_framework_options(){
                     'id' => '42',
                     'type' => 'text',
                     'title' => __('Google Map Brightness', Zoo_TEXT_DOMAIN), 
-                    'desc' => __('<p class="description"> (Value between -100 and 100) ndicates the percentage change in brightness of the map.</p>', Zoo_TEXT_DOMAIN),
+                    'desc' => __('<p class="description"> (Value between -100 and 100) indicates the percentage change in brightness of the map.</p>', Zoo_TEXT_DOMAIN),
                     'sub_desc' => __('Enter Google map saturation', Zoo_TEXT_DOMAIN),
                     'std' => '-10',
                 ),

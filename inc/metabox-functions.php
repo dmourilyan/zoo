@@ -65,7 +65,7 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
 
 	$meta_boxes[] = array(
 		'id'         => 'super_slider_metabox',
-		'title'      => __('Slide Caption Scoll Animation Presets', 'zoo'),
+		'title'      => __('Slide Caption Scroll Animation Presets', 'zoo'),
 		'pages'      => array( 'super_slider', ), // Post type
 		'context'    => 'normal',
 		'priority'   => 'high',

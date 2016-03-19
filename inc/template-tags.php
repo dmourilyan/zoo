@@ -1,21 +1,15 @@
 <?php
-
-
 if ( ! function_exists( '_s_content_nav' ) ) :
-
 function _s_content_nav() {
 	global $wp_query, $post;
-
 	if ( is_single() ) {
 		$previous = ( is_attachment() ) ? get_post( $post->post_parent ) : get_adjacent_post( false, '', true );
 		$next = get_adjacent_post( false, '', false );
-
 		if ( ! $next && ! $previous )
 			return;
 	}
 	if ( $wp_query->max_num_pages < 2 && ( is_home() || is_archive() || is_search() ) )
 		return;
-
 	if ( is_single() ) :  ?>
 
 		<?php next_post_link( '<div class="nav-next">%link</div>', __('Next Post', 'zoo') ); ?>
@@ -37,9 +31,7 @@ function _s_content_nav() {
 	<?php
 }
 endif;
-
 if ( ! function_exists( '_s_comment' ) ) :
-
 function _s_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
 	switch ( $comment->comment_type ) :
@@ -92,9 +84,7 @@ function _s_comment( $comment, $args, $depth ) {
 	endswitch;
 }
 endif; 
-
 if ( ! function_exists( '_s_posted_on' ) ) :
-
 function _s_posted_on() {
 	$categories_list = get_the_category_list( __( ', ', 'zoo' ) );
 	echo '<div class="row">';
@@ -110,7 +100,7 @@ function _s_posted_on() {
         $categories_list
 	);
 	if ( is_search() || is_archive() || is_home() ){
-		echo '<a class="readmore" href="' .get_permalink(get_the_ID()).'">Read more</a>';
+		echo '<a class="readmore" href="' .get_permalink(get_the_ID()).'">'.__('Read More', 'zoo').'</a>';
 	}
 	if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) :
 		comments_popup_link( __( 'Leave a comment', 'zoo' ), __( '1 Comment', 'zoo' ), __( '% Comments', 'zoo' ) );
@@ -118,30 +108,23 @@ function _s_posted_on() {
 	echo '</div>';
 	echo '</div>';
 	echo '</div>';
-
 }
 endif;
-
-
 function _s_categorized_blog() {
 	if ( false === ( $all_the_cool_cats = get_transient( 'all_the_cool_cats' ) ) ) {
 		$all_the_cool_cats = get_categories( array(
 			'hide_empty' => 1,
 		) );
 		$all_the_cool_cats = count( $all_the_cool_cats );
-
 		set_transient( 'all_the_cool_cats', $all_the_cool_cats );
 	}
-
 	if ( '1' != $all_the_cool_cats ) {
 		return true;
 	} else {
 		return false;
 	}
 }
-
 function _s_category_transient_flusher() {
-
 	delete_transient( 'all_the_cool_cats' );
 }
 add_action( 'edit_category', '_s_category_transient_flusher' );

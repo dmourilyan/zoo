@@ -1,0 +1,5 @@
+17/03/2016 10:21:48 p.m.: C:\Program Files (x86)\Poedit\GettextTools\bin\xgettext.exe: Comentario no ASCII en o precediendo ../inc/zoo-shortcodes/tinymce/js/base64.js:13.
+17/03/2016 10:21:48 p.m.:                                                              Especifique la codificación del código fuente utilizando --from-code
+17/03/2016 10:21:48 p.m.:                                                              
+17/03/2016 10:21:49 p.m.: Es probable que algunos mensajes del catálogo sean incorrectos.
+17/03/2016 10:21:49 p.m.: Falló la actualización del catálogo. Pulse en «Detalles» para más información.
